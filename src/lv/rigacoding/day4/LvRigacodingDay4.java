@@ -18,6 +18,6 @@ public class LvRigacodingDay4 {
         Loops.countToN();
     }
     public static void main(String[] args) {
-       Loops.hashtagN();
+       Loops.triangleN();
     }
 }

@@ -12,6 +12,30 @@ import java.util.Scanner;
  * @author oscar
  */
 public class Loops {
+     
+    public static void triangleN(){
+         Scanner input = new Scanner(System.in);
+        System.out.println("Ievadi skaitu N: ");
+        
+        int n = input.nextInt();
+        
+        for(int rinda = 0; rinda < n; rinda++){
+            for(int kolona = 1; kolona <= rinda+1; kolona ++){
+                
+                System.out.print(kolona);
+            }
+            
+            
+            System.out.println();
+       
+        
+        }
+        
+        
+        
+    }
+    
+    
     public static void hashtagN(){
          Scanner input = new Scanner(System.in);
         System.out.println("Ievadi skaitu N: ");
